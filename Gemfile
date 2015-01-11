@@ -41,5 +41,5 @@ gem 'simple_form'
 # gem 'debugger', group: [:development, :test]
 
 gem 'pg', group: :production
-gem 'rails12_factor', group: :production
+gem 'rails_12factor', group: :production
  
