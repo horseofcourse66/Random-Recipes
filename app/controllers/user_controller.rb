@@ -8,7 +8,3 @@ class RecipesController < ApplicationController
   end
 
 
-if user clicks yes display recipes
-  else display next picture 
-end 
-end
