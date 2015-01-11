@@ -1,4 +1,4 @@
-class RecipesController < ApplicationController
+class UsersController < ApplicationController
   def index
     @User=User.all 
   end
@@ -6,5 +6,5 @@ class RecipesController < ApplicationController
   def new
   	@new=User.new
   end
-
+end
 
