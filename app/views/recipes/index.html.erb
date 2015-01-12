@@ -1,11 +1,15 @@
+<% if @recipe.present? %>
+
 <h1> Would you Eat This for Dinner?</h1>
 <hr>
 <br>
 <div>
-  <p><%= image_tag(@recipe.image_string) if @recipe.present? %></p>
+  <p><%= image_tag(@recipe.image_string) %></p>
 </div>
 
 
 
 <button type="button" class= "button1"><%= link_to 'Yes',  @recipe.link_url, target: '_blank' %></button>
 <button type="button" class="button2"><%= link_to 'No', recipes_path %></button>
+
+<% end %>
