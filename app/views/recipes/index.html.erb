@@ -2,7 +2,7 @@
 <hr>
 <br>
 <div>
-  <p><%= image_tag(@recipe.image_string) %></p>
+  <p><%= image_tag(@recipe.image_string) if @recipe.image_string.present? %></p>
 </div>
 
 
